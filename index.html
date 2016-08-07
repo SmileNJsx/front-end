@@ -1,0 +1,431 @@
+
+
+<!--less jquery sublime-->
+
+
+
+
+<!--<!DOCTYPE html>-->
+<!--
+<html>
+	<head>
+	
+	</head>
+	
+	<body>
+		<h1>My First JavaScript</h1>
+		
+		<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+		Click me to display Date
+		</button>
+		
+		<p id="demo"></p>
+	</body>
+</html>
+-->
+
+<!--
+<html>
+	<body>
+		<h1>What Can JavaScript Do?</h1>
+		
+		<p>JavaScript can show hidden HTML element.</p>
+		
+		<p id="demo" style="display:none">Hello JavaScript</p>
+		
+		<button type="button" onclick="document.getElementById('demo').style.display='block'">
+			Click me!
+		</button>
+
+	</body>
+</html>
+-->
+
+<!--
+<html>
+
+	<body>
+		<h1>What can JavaScript Do?</h1>
+		
+		<p id="demo">JavaScript can hide HTML elements.</p>
+		
+		<button type="button" onclick="document.getElementById('demo').style.display='none'">
+				Click me!
+		</button>
+	</body>
+</html>
+-->
+
+<!--
+<html>
+	<body>
+		<h1>What can JavaScript Do?</h1>
+		
+		<p id="demo">JavaScript can change the style of an HTML element</p>
+		
+		<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">
+			Click me!
+		</button>
+	</body>
+</html>
+-->
+
+<!--
+<html>
+	<body>
+		<h1>What can JavaScript Do?</h1>
+		
+		<p>JavaScript can change HTML attribute.</p>
+		
+		<p>In this case JavaScript changes the src attribue of an image.</p>
+		
+		<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">
+			Turn on the light
+		</button>
+		
+		<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+		
+		<button onclick="document.getElementById('myImage').src='pic_bulboff'">
+			Turn off the light
+		</button>
+	</body>
+</html>
+-->
+<!--
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>船舶代理系统</title>
+		
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+	
+	<body>
+		<div id="container">
+			<form action="welcome.html">
+				<div class="login">LOGIN</div>
+				<div class="username-text">Username</div>
+				<div class="password-text">Password</div>
+				
+				<div class="username-field">
+					<input type="text" name="username" value="root" />
+				</div>
+				<div class="password-field">
+					<input type="password" name="password" value="root" />
+				</div>
+				
+				<input type="checkbox" name="remember-me" id="remember-me" /><label for="remember-me">Remember me</label>
+				
+				<div class="forgot-usr-pwd">Forgot<a href="#"> username</a> or <a href="#">password</a>?</div>
+				
+				<input type="submit" name="submit" value="GO" />
+			</form>
+			
+			<div id="footer">
+				Copyright &copy 2016. Autor Jimmy All rights reserved.
+			</div>
+		</div>
+		
+	</body>
+</html>
+-->
+<!--
+<!DOCTYPE HTML>
+<html>
+	<body>
+		<video width="320" height="240" controls="controls">
+			<source src="out.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</body>
+</html>
+-->
+<!--
+<!DOCTYPE HTML>
+
+<html>
+	<body>
+		
+	
+		<canvas id="myCanvas" width="200" height="100"></canvas>
+		<script type="text/javascript">
+			var c=document.getElementById("myCanvas");
+			var cxt=c.getContext("2d");
+			cxt.fillStyle="#FF0000";
+			cxt.fillRect(0,0,150,75);
+		</script>
+	</body>
+</html>
+-->
+<!DOCTYPE HTML>
+
+<!--
+<html>
+	<head>
+		<style type="text/css">
+		
+			body{
+				font-size:70%;
+				font-family:verdana,elvetica,arial,sans-serif;
+			}
+		</style>
+		
+		<script type="text/javascript">
+			function cnvs_getCoordinates(e){
+				x=e.clientX;
+				y=e.clientY;
+				document.getElementById("xycoordinates").innerHTML="Coordinates:("+x+","+y+")";
+			}
+			
+			function cnvs_clearCoordinates(){
+				document.getElementById("xycoordinates").innerHTML="";
+			}
+		</script>
+	</head>
+	
+	<body style="margin:0px;">
+		<p>把鼠标悬停下面的矩形可以看见坐标</p>
+		<div id="coordiv" style="float:left;width:199px;height:99px;border:1px solid #c3c3c3"
+			onmousemove="cnvs_getCoordinates(event)"
+			onmouseout="cnvs_clearCoordinates()">
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<div id="xycoordinates"></div>
+	</body>
+</html>
+-->
+<!--
+<html>
+	<body>
+		<script type="text/javascript">
+			localStorage.lastname="Smith";
+			document.write("Last name :"+localStorage.lastname);
+		</script>
+	</body>
+	
+	
+</html>
+-->
+<!--
+<html>
+	<body>
+		<form action="" method="">
+			<input type="email" name="user_email"><br/>
+		</form>
+	</body>
+</html>
+-->
+<!--
+<html>
+	<body>
+		<input type="number" name="points" min="0" max="10" step="3" value="6"/>
+		<input type="submit"/>
+	</body>
+</html>
+-->
+<!--
+<html>
+	<body>
+		<form action="" method="">
+			Date:<input type="datetime-local" name="user_date"/>
+			<input type="submit" />
+		</form>
+	</body>
+</html>
+-->
+<!--
+<html>
+	<body>
+		<form action="" method="" autocomplete="on">
+			First name:<input type="text" name="fname"/><br/>
+			Last name:<input type="text" name="lname"/><br/>
+			E-mail: <input type="email" name="email" autocomplete="off"/>
+			<input type="submit">
+		</form>
+	</body>
+</html>
+-->
+<!--
+<html>
+	<body>
+		<form action="" method="">
+		user name:<input type="text" name="user_name"/><br/>
+		<input type="image" src="girl.jpg" width="99" height="99"/>
+		</form>
+	</body>
+</html>
+-->
+<!--
+<html>
+	<body>
+		<form action="" method="">
+		Webpage:<input type="url" list="user_list" name="link"/>
+		
+			<datalist id="user_list">
+				<option label="aaa" value="http://www.baidu.com">
+				<option label="aaaaaaa" value="">
+			</datalist>
+			
+			<input type="submit">
+		</form>
+	</body>
+</html>
+-->
+<!--
+<input type="file" name="img" multiple="multiple"/>
+-->
+<!--
+<html>
+<body>
+<abbr title="Pepole Republic of China">PRC</abbr>
+</body>
+</html>
+-->
+<!--
+<ol>
+	<li>a</li>
+	<li>b</li>
+</ol>
+-->
+<!--
+<html>
+<body>
+<menu>
+	<li>Red</li>
+	<li>blue</li>
+</menu>
+</body>
+</html>
+-->
+<!--
+<select>
+	<option>a</option>
+	<option>b</option>
+</select>
+-->
+<!--
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<style type="text/css">
+		body{margin:0;}
+		#layout{height:300px;width:400px;background:#99FFcc;margin:auto;}
+		</style>
+	</head>
+	<body>
+		<div id="layout">此处显示id“layout”的内容</div>
+	<body>
+</html>
+-->
+<!--
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<style type="text/css">
+			body{margin:0;padding:0;}
+			#header{margin:5px auto;width:500px;height:80px;background:#9F9;}
+			#main{margin:5px auto;width:500px;height:400px;background:#9FF;}
+			#footer{margin:5px auto;width:500px;height:800px;background:#9F9;}
+		</style>
+	</head>
+	<body>
+		<div id="header">"header"</div>
+		<div id="main">"main"</div>
+		<div id="footer">"footer"</div>
+	</body>
+</html>
+-->
+<!--
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style type="text/css">
+			#content{
+				width:470px;
+				margin:0 auto;
+			}
+			#side{
+				background:#99FF99;
+				height:300px;
+				width:120px;
+				float:left;
+			}
+			#main{
+				background:#99FFFF;
+				height:300px;
+				width:70%;
+				margin-left:120px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<div id="side">"side"</div>
+			<div id="main">"main"</div>
+		</div>
+	</body>
+</html>
+-->
+<!--
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<style type="text/css">
+			body{
+				font-family:Verdana;
+				font-size:12px;
+				line-height:1.5;
+			}
+			a{
+				color:#000;
+				text-decoration:none;
+			}
+			a:hover{
+				color:#F00;
+			}
+			#menu{
+				width:100px;
+				border:1px solid #CCC;
+			}
+			#menu ul{
+				list-style:none;
+				margin:0px;
+				padding:0px;
+			}
+			#menu ul li{
+				background:#EEE;
+				padding:0px 8px;
+				height:26px;
+				line-height:26px;
+				border-bottom:1px solid #CCC;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="menu">
+			<ul>
+				<li><a href="">首页</a></li>
+				<li><a href="">第二页</a></li>
+				<li><a href="">第三页</a></li>
+				<li><a href="">第四页</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
